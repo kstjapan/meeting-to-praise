@@ -1,0 +1,129 @@
+@charset"UTF8";
+
+/* フッタを一番下に配置 */
+html, body { height: 100%;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body > footer
+ {
+  position: sticky;
+  top: 100vh;
+}
+header img{
+width: 100%;
+}
+a:link, a:active {
+text-decoration: none;
+color: rgb(255, 255, 255);
+}
+a:hover, a:visited{
+  color: rgb(196, 252, 44);
+}
+nav ul{
+  display:flex;
+  flex-direction: column;
+  list-style:none;
+  text-align: center;
+  padding: 0 1em;
+}
+nav ul li{
+  width: 100%;
+  height: 2.5em;
+  font-size:1.2em;
+  margin: 0.2em auto;
+  line-height: 2.5;
+  background-color: rgb(155, 15, 125);
+  color: rgb(255, 255, 255);
+}
+main section{
+  text-align: center;
+  font-size: 2.3vw;
+  letter-spacing: 0.2em;
+}
+/* 標準92％ 最大940px */
+main section img{
+  width:min(92%,940px) ;
+}
+section ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.middle{
+  margin: 0 auto;
+  text-align: center;
+}
+.sns{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.lanking{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.lanking img{
+  width: 120px;
+}
+.lanking a{
+  color: black;
+}
+.right{
+  text-align: center;
+  width: 388px;
+  margin: 0 auto;
+}
+.sec-right{
+  margin: 0;
+  padding: 0;
+}
+footer{
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+#wrapper{
+  margin: 0 auto;
+}
+.gotop{
+  text-align:center;
+}
+.gotop a{
+display: inline-block
+}
+.gotop a:hover{
+  opacity: .4;
+}
+
+/* スクリーンサイズが960px以上の場合に適用 */
+@media screen and (min-width: 960px) {
+
+nav ul{
+  display:-webkit-flex;
+  display:flex;
+  flex-direction:row;
+  list-style:none;
+  text-align:center;
+}
+nav ul li{
+  text-decoration: none;
+  margin: 0 auto;
+}
+#flex{
+  display: flex;
+}
+#flex ul{
+  list-style: none;
+}
+.right{
+  width: 320px;
+}
+.gotop{
+  text-align:right;
+  margin-right: 3em;
+}
+}

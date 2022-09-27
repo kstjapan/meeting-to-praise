@@ -1,0 +1,24 @@
+.wedding {
+  position:relative;
+}
+
+.wedding audio{
+  position: absolute;
+  padding-left:1.5rem;
+  bottom:3rem;
+}
+.wedding dl{
+  position: absolute;
+  padding-left:1.5rem;
+  top:4rem;
+  left:1rem;
+  color: #fff;
+}
+.wedding dl p{
+  position: absolute;
+  top:-4rem;
+  left:1em;
+}
+.wedding p img{
+  width:100%;
+}

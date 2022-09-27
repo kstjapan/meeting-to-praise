@@ -1,0 +1,250 @@
+@charset"UTF8";
+.rogo{
+  text-align: center;
+}
+.rogo img{
+  width: 120px;
+}
+
+main ul li,ol li{
+  margin-left: 1em;
+  line-height: 2em;
+}
+main section{
+  text-align: left;
+  padding-left: 2em;
+  padding-right: 1em;
+}
+main section h2{
+  font-size: 2vw;
+}
+.lanking img{
+  width: 100%;
+}
+section dl{
+  text-align: right;
+}
+.music3 {
+  text-align: left;
+  padding: 0 1em;
+}
+.music3 li{
+  color:darkmagenta;
+  font-weight:700;
+}
+.music3 h3:link{
+  color:darkmagenta;
+}
+.honbu{
+  text-align: right;
+  line-height: 0.6em;
+  font-weight:700;
+}
+.itido{
+  padding-right: 2.8em;
+}
+.reader{
+  padding-right: 1.2em;
+}
+.moushikomi{
+   text-align: center;
+
+}
+.moushikomi h2{
+  background-color: darkorange;
+  padding: 0.03em;
+  width: 100%;
+}
+.moushikomi a:visited{
+  color: rgb(150, 22, 22);
+}
+.moushikomi a:hover{
+  background-color: rgb(22, 150, 50);
+  color: rgb(255, 255, 255);
+}
+.fukyuhonbu{
+  padding-left: 18em;
+  margin-bottom: 2em;
+  font-weight: 700;
+}
+.chikai{
+  text-align: center;
+}
+.promotion{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.promotion figure{
+  margin-bottom: 2em;
+}
+.promotion figcaption{
+  font-size: 1.5vw;
+}
+.promotion a{
+  color: #000;
+}
+.promotion a:hover{
+  color: rgb(235, 60, 60);
+}
+.promotion ol{
+  list-style-type: cjk-ideographic;
+}
+.vertical-rl{
+  padding-left: 3em;
+  text-align: start;
+  font-size: 1.4em;
+  line-height: 1.5em;
+}
+.vertical-rl p{
+  text-indent: 2em;
+}
+ruby{
+  text-indent: 0;
+  padding: 0;
+}
+ruby rt{
+  padding: 0;
+  text-align:center;
+  font-size:40%;
+}  /* 歌詞の題目のルビ */
+
+.rubi ruby rt{
+  font-size:50%;
+}  /* 歌詞のルビ */
+.game{
+  text-align: end;
+}
+.dvd{
+  list-style-type: none;
+  padding-right: 2em;
+}
+.hasu{
+  list-style-type: none;
+}
+.hasu img{
+  width: 200px;
+}
+audio{
+  margin-bottom: 1rem;
+}
+hr{
+  margin-bottom: 1.5rem;
+}
+.vertical-rl h3{
+  color:  rgb(133, 12, 102);
+}
+.lanking2 img{
+  width: 110px;
+}
+ol{list-style-type: cjk-ideographic;}
+.right audio{
+  height: 200px;
+  width: 200px;
+}
+table{
+  margin: 1em auto;
+}
+table .hikyo{
+  background: url(../images/hikyo200_s.jpg) no-repeat;
+}
+table .kameido{
+ background: url(../images/kameidotenjin_s.jpg) no-repeat;
+}
+table .jidai{
+ background: url(../images/jidai.jpg) no-repeat;
+}
+table .yozakura{
+  background: url(../images/yozakura_s.jpg) no-repeat;
+ }
+table .suzume{
+  background: url(../images/suzume.jpg) no-repeat;
+ }
+table .heiwa{
+  background: url(../images/heiwa.jpg) no-repeat;
+ }
+table .otoko{
+  background: url(../images/otokomichi.jpg) no-repeat;
+ }
+table .unmei{
+  background: url(../images/unmei.jpg) no-repeat;
+ }
+table .ukiyobune{
+  background: url(../images/ukiyobune.jpg) no-repeat;
+ }
+table td{
+  padding-bottom: 1.6em;
+}
+table a:visited{
+  color: white;
+}
+table a:hover{
+  color: rgb(196, 252, 44);
+}
+/*table*/
+table {
+  margin: 20px auto;
+  font-size: 16px;
+}
+.tbl th {
+  background: #e9727e;
+  border: solid 1px #ccc;
+  color: #fff;
+  padding: 10px;
+}
+.tbl td {
+  border: solid 1px #ccc;
+  padding: 10px;
+}
+.hr{
+    border-top: 3px dotted rgb(247, 24, 117); /* 点線 */
+  }
+.hwa{
+  padding: 2em;
+}
+.hwa h3{
+  margin: 0 auto;
+  letter-spacing: 0.3em;
+  text-align:center;
+}
+
+
+/* スクリーンサイズが960px以上の場合に適用 */
+@media screen and (min-width: 960px) {
+  .rogo{
+    display: flex;
+    align-items: center;
+    }
+  .toshokan{
+   font-size: 1.5vw;
+    }
+ .vertical-rl{
+  -ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+  text-align: start;
+  font-size: 16px;
+    }
+  .right{
+   width: 388px;
+    }
+  .hasu img{
+    margin-top: 3em;
+    }
+}
+
+ @media screen and (max-width: 640px) {
+  .last td:last-child {
+    border-bottom: solid 1px #ccc;
+    width: 100%;
+  }
+  .tbl {
+    width: 80%;
+  }
+  .tbl th,
+  .tbl td {
+    border-bottom: none;
+    display: block;
+    width: 100%;
+  }
+ }
+
